@@ -15,7 +15,7 @@ import com.climax.rapport_statistique.services.servicesImpl.FichierXML;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FileFactory {
+public class FichierFactory {
     private static final Map<String, Fichier> parsers = new HashMap<>();
 
     static {
